@@ -1,0 +1,8 @@
+-----------------------------------Assignment Second ---------------------------------
+
+1 .select DISTINCT library_id from (SELECT priority,library_id, ROW_NUMBER() OVER (PARTITION BY library_id ORDER BY post_id) AS row_number FROM library_posts) subquery where row_number!=priority;
+
+2. update library_posts lp JOIN (SELECT post_id,library_id, ROW_NUMBER() OVER (PARTITION BY library_id ORDER BY post_id) AS row_number FROM library_posts) subquery ON lp.post_id = subquery.post_id set lp.library_id=subquery.row_number;
+
+
+Thanks Sir 
