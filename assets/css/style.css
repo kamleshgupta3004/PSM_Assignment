@@ -1,0 +1,112 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-section, .preview-section, .saved-records {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-group input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.preview-container, .saved-records {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+.record {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.pagination {
+    text-align: center;
+}
+
+/* Style for pagination links */
+.pagelink {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 2px;
+    background-color: #aea4a4;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/* Style for active page */
+strong {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+/* Hover style for pagination links */
+.pagelink:hover {
+    background-color: #ddd;
+}
+
+/* Optional: Adjust the spacing and alignment of pagination */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Optional: Adjust the appearance of the 'next' link */
+.pagelink[rel="next"] {
+    font-weight: bold;
+}
