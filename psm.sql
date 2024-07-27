@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 21, 2024 at 12:59 PM
+-- Generation Time: Jul 27, 2024 at 04:30 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -85,7 +85,17 @@ INSERT INTO `psm_record` (`id`, `url`, `title`, `description`, `image`, `created
 (10, 'https://www.sadasdb.com/', 'Sadas – Tecnologia all’avanguardia per l’analisi dei Big Data', 'SADAS sviluppa soluzioni innovative e personalizzabili per la Business Intelligence, la gestione dei dati e la creazione di report direzionali.', 'https://www.sadasdb.com/wp-content/plugins/qtranslate-x/flags/it.png', '2024-07-21 07:10:38', '2024-07-21 07:10:38'),
 (11, 'https://www.aa.org/', 'Have a problem with alcohol? There is a solution. | Alcoholics Anonymous', 'Have a problem with alcohol? There is a solution. A.A. has a simple program that works. It’s based on one alcoholic helping another.', '/sites/default/files/logos/AA_English_3.svg', '2024-07-21 07:11:39', '2024-07-21 07:11:39'),
 (12, 'https://www.indiamart.com', 'IndiaMART - Indian Manufacturers Suppliers Exporters Directory,India Exporter Manufacturer', 'IndiaMART.com is India\'s largest online marketplace that assists manufacturers, suppliers & exporters to trade with each other at a common, reliable & transparent platform. Largest free online business directory & yellow page with listing of 1,945,000 Indian & International companies. Find here quality products, trade leads, manufacturers, suppliers, exporters & international buyers.', '//hm.imimg.com/imhome_gifs/indiamart-og1.jpg', '2024-07-21 07:22:25', '2024-07-21 07:22:25'),
-(13, 'https://kvsadmission.co.in', 'KVS Admission 2024-25 Class 1 - kvsonlineadmission.kvs.gov.in', 'KVS Admission (Class 1) 2024-25 Start Date @ kvsonlineadmission.kvs.gov.in 2024. Kendriya Vidyalaya Online Admission Start & Last Date.', 'https://kvsadmission.co.in/wp-content/uploads/2024/04/KVS-Registration.png', '2024-07-21 08:32:14', '2024-07-21 08:32:14');
+(13, 'https://kvsadmission.co.in', 'KVS Admission 2024-25 Class 1 - kvsonlineadmission.kvs.gov.in', 'KVS Admission (Class 1) 2024-25 Start Date @ kvsonlineadmission.kvs.gov.in 2024. Kendriya Vidyalaya Online Admission Start & Last Date.', 'https://kvsadmission.co.in/wp-content/uploads/2024/04/KVS-Registration.png', '2024-07-21 08:32:14', '2024-07-21 08:32:14'),
+(14, 'https://www.aa.org/', 'Have a problem with alcohol? There is a solution. | Alcoholics Anonymous', 'Have a problem with alcohol? There is a solution. A.A. has a simple program that works. It’s based on one alcoholic helping another.', 'https://www.aa.org/sites/default/files/oembed_thumbnails/yO6W3iMV_1dsrtQnNYwPOodnFMgcdKQCbhiOyNLeY34.jpg', '2024-07-27 11:35:23', '2024-07-27 11:35:23'),
+(15, 'https://agents.hellotravel.com/', 'Get Verified Travel Enquiries for Free, Promote your travel business - Hellotravel', 'Travel agent can increase his business and get more travel leads from Hellotravel to scale his business. Along with branding solutions, and Free CRM to manage complete business on cloud.', 'https://agents.hellotravel.com/proposal-new/images/hellotravel_logo1.svg', '2024-07-27 12:45:43', '2024-07-27 12:45:43'),
+(16, 'http://www.aa.org/', 'Have a problem with alcohol? There is a solution. | Alcoholics Anonymous', 'Have a problem with alcohol? There is a solution. A.A. has a simple program that works. It’s based on one alcoholic helping another.', 'http://www.aa.org/sites/default/files/oembed_thumbnails/yO6W3iMV_1dsrtQnNYwPOodnFMgcdKQCbhiOyNLeY34.jpg', '2024-07-27 12:55:55', '2024-07-27 12:55:55'),
+(17, 'https://www.clickindia.com', 'Clickindia Classifieds,Free Classified Ads,Buy Sell Classified Ads', '', 'https://clickindia.com/images/clickindia_logom.png', '2024-07-27 13:02:38', '2024-07-27 13:02:38'),
+(18, 'https://www.clickindia.com', 'Clickindia Classifieds,Free Classified Ads,Buy Sell Classified Ads', '', 'https://clickindia.com/images/clickindia_logom.png', '2024-07-27 13:05:47', '2024-07-27 13:05:47'),
+(19, 'http://localhost/psm/submitrecord', 'Clickindia Classifieds,Free Classified Ads,Buy Sell Classified Ads', '', 'https://clickindia.com/images/clickindia_logom.png', '2024-07-27 13:52:31', '2024-07-27 13:52:31'),
+(20, 'http://localhost/psm/submitrecord', 'Clickindia Classifieds,Free Classified Ads,Buy Sell Classified Ads', '', 'https://clickindia.com/images/clickindia_logom.png', '2024-07-27 13:52:59', '2024-07-27 13:52:59'),
+(21, 'http://localhost/psm/submitrecord', 'Clickindia Classifieds,Free Classified Ads,Buy Sell Classified Ads', '', 'https://clickindia.com/images/clickindia_logom.png', '2024-07-27 13:55:21', '2024-07-27 13:55:21'),
+(22, 'https://www.clickindia.com', 'Clickindia Classifieds,Free Classified Ads,Buy Sell Classified Ads', '', 'https://clickindia.com/images/clickindia_logom.png', '2024-07-27 14:10:30', '2024-07-27 14:10:30'),
+(23, 'https://kk-mart.com/', 'Financial', '', 'https://kk-mart.com/wp-content/uploads/2024/07/30_luxury_bike_3.webp', '2024-07-27 14:12:55', '2024-07-27 14:12:55');
 
 --
 -- Indexes for dumped tables
@@ -117,7 +127,7 @@ ALTER TABLE `library_posts`
 -- AUTO_INCREMENT for table `psm_record`
 --
 ALTER TABLE `psm_record`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
