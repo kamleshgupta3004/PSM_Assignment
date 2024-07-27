@@ -21,9 +21,13 @@ class HomeModal extends CI_Model {
         }
         return $return;
     }
+
+    //this functon return all count
     public function countRecord() {
         return $this->db->count_all('psm_record');
     }
+
+    //this functon return record from table 
     public function fetchRecord($limit, $offset) {
         $this->db->order_by('created_date', 'DESC');
         $query = $this->db->get('psm_record', $limit, $offset);
